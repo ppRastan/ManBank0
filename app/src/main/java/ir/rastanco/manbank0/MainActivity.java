@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
-            getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+//            getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
         }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
