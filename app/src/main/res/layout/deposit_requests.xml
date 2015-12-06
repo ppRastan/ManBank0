@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="DepositTabs.DepositRequests">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="در خواست جدید"
+        android:id="@+id/button3"
+        android:layout_marginTop="92dp"
+        android:layout_below="@+id/textView31"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="وضعیت"
+        android:id="@+id/textView29"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_above="@+id/textView34"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="عنوان "
+        android:id="@+id/textView30"
+        android:layout_marginTop="95dp"
+        android:layout_below="@+id/textView22"
+        android:layout_alignRight="@+id/textView34"
+        android:layout_alignEnd="@+id/textView34"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="--"
+        android:id="@+id/textView31"
+        android:layout_alignTop="@+id/textView33"
+        android:layout_alignLeft="@+id/textView32"
+        android:layout_alignStart="@+id/textView32" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="X"
+        android:id="@+id/textView32"
+        android:layout_above="@+id/textView33"
+        android:layout_alignLeft="@+id/textView29"
+        android:layout_alignStart="@+id/textView29"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="وام 12 ماهه"
+        android:id="@+id/textView33"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/textView34"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="15dp"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="وام 6 ماهه"
+        android:id="@+id/textView34"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/textView30"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="15dp"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="مقصد"
+        android:id="@+id/textView35"
+        android:layout_alignTop="@+id/textView29"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="علی امیری"
+        android:id="@+id/textView37"
+        android:layout_alignTop="@+id/textView34"
+        android:layout_alignRight="@+id/textView35"
+        android:layout_alignEnd="@+id/textView35"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="علی امیری"
+        android:id="@+id/textView39"
+        android:layout_alignBottom="@+id/textView33"
+        android:layout_alignRight="@+id/textView37"
+        android:layout_alignEnd="@+id/textView37"
+        android:textSize="15dp" />
+
+</RelativeLayout>

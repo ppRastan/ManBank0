@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="DepositTabs.DepositLoans">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="جزئیات"
+        android:id="@+id/button3"
+        android:layout_below="@+id/checkBox11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="مبلغ سررسید شده"
+        android:id="@+id/textView29"
+        android:layout_alignTop="@+id/textView30"
+        android:layout_toLeftOf="@+id/button3"
+        android:layout_toStartOf="@+id/button3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="شماره تسهیلات"
+        android:id="@+id/textView30"
+        android:layout_marginTop="121dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView34"
+        android:layout_alignStart="@+id/textView34" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="450,000"
+        android:id="@+id/textView31"
+        android:layout_alignTop="@+id/textView33"
+        android:layout_alignRight="@+id/textView32"
+        android:layout_alignEnd="@+id/textView32" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="2,000,000"
+        android:id="@+id/textView32"
+        android:layout_alignTop="@+id/textView34"
+        android:layout_alignRight="@+id/textView29"
+        android:layout_alignEnd="@+id/textView29" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="774673"
+        android:id="@+id/textView33"
+        android:layout_below="@+id/textView34"
+        android:layout_toRightOf="@+id/button3"
+        android:layout_toEndOf="@+id/button3"
+        android:layout_marginTop="31dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="564832"
+        android:id="@+id/textView34"
+        android:layout_below="@+id/textView30"
+        android:layout_alignLeft="@+id/textView33"
+        android:layout_alignStart="@+id/textView33"
+        android:layout_marginTop="40dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox10"
+        android:layout_above="@+id/textView33"
+        android:layout_toRightOf="@+id/textView34"
+        android:layout_toEndOf="@+id/textView34" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox11"
+        android:layout_alignBottom="@+id/textView33"
+        android:layout_toRightOf="@+id/textView33"
+        android:layout_toEndOf="@+id/textView33" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="پرداخت"
+        android:id="@+id/button2"
+        android:layout_alignTop="@+id/button3"
+        android:layout_toRightOf="@+id/button3"
+        android:layout_toEndOf="@+id/button3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="درخواست وام"
+        android:id="@+id/button4"
+        android:layout_alignTop="@+id/button3"
+        android:layout_toLeftOf="@+id/button3"
+        android:layout_toStartOf="@+id/button3" />
+</RelativeLayout>

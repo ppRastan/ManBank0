@@ -1,0 +1,148 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ir.rastanco.manbank0.ProfileFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="نام : "
+        android:id="@+id/textView23"
+        android:layout_marginTop="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginEnd="40dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText10"
+        android:layout_alignBottom="@+id/textView23"
+        android:layout_alignLeft="@+id/editText11"
+        android:layout_alignStart="@+id/editText11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="نام کاربری :"
+        android:id="@+id/textView24"
+        android:layout_below="@+id/textView23"
+        android:layout_alignRight="@+id/textView23"
+        android:layout_alignEnd="@+id/textView23"
+        android:layout_marginTop="40dp" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText11"
+        android:layout_above="@+id/textView25"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="شناسه من بانک : "
+        android:id="@+id/textView25"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textView24"
+        android:layout_alignRight="@+id/textView24"
+        android:layout_alignEnd="@+id/textView24" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText12"
+        android:layout_alignBottom="@+id/textView25"
+        android:layout_alignLeft="@+id/editText11"
+        android:layout_alignStart="@+id/editText11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="درباره من بانک من :"
+        android:id="@+id/textView26"
+        android:layout_below="@+id/textView25"
+        android:layout_alignRight="@+id/textView25"
+        android:layout_alignEnd="@+id/textView25"
+        android:layout_marginTop="40dp" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText13"
+        android:layout_alignBottom="@+id/textView26"
+        android:layout_alignLeft="@+id/editText12"
+        android:layout_alignStart="@+id/editText12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ایمیل : "
+        android:id="@+id/textView27"
+        android:layout_below="@+id/editText13"
+        android:layout_alignRight="@+id/textView25"
+        android:layout_alignEnd="@+id/textView25"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="تلفن :"
+        android:id="@+id/textView28"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textView27"
+        android:layout_alignRight="@+id/textView26"
+        android:layout_alignEnd="@+id/textView26" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText14"
+        android:layout_above="@+id/textView28"
+        android:layout_alignLeft="@+id/editText13"
+        android:layout_alignStart="@+id/editText13" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText15"
+        android:layout_alignBottom="@+id/textView28"
+        android:layout_alignLeft="@+id/editText14"
+        android:layout_alignStart="@+id/editText14"
+        android:elegantTextHeight="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ذخیره"
+        android:id="@+id/button18"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/textView25"
+        android:layout_toStartOf="@+id/textView25"
+        android:layout_marginBottom="45dp" />
+
+</RelativeLayout>

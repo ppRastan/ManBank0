@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/deposit_services"
+            android:icon="@drawable/deposit"
+            android:title="خدمات سپرده" />
+        <item
+            android:id="@+id/customers_services"
+            android:icon="@drawable/customers"
+            android:title="خدمات مشتریان" />
+        <item
+            android:id="@+id/other_services"
+            android:icon="@drawable/services"
+            android:title="سایر خدمات" />
+        <item
+            android:id="@+id/about_manbank"
+            android:icon="@drawable/about"
+            android:title="درباره من بانک" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/my_profile"
+                android:icon="@drawable/myprofile"
+                android:title="پروفایل من" />
+
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="تنظیمات" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="CustomersTabs.CustomersCards">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="وضعیت کارت های مشتریان"
+        android:id="@+id/textView22"
+        android:layout_marginTop="97dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="نام"
+        android:id="@+id/textView30"
+        android:layout_alignTop="@+id/textView35"
+        android:layout_alignRight="@+id/textView33"
+        android:layout_alignEnd="@+id/textView33" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="امیر حسنی"
+        android:id="@+id/textView33"
+        android:textSize="15dp"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/textView30"
+        android:layout_toRightOf="@+id/textView22"
+        android:layout_toEndOf="@+id/textView22" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="سمیرا تابان"
+        android:id="@+id/textView34"
+        android:layout_marginTop="31dp"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView33"
+        android:layout_alignRight="@+id/textView33"
+        android:layout_alignEnd="@+id/textView33" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="وضعیت"
+        android:id="@+id/textView35"
+        android:layout_below="@+id/textView22"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="عملیات"
+        android:id="@+id/textView36"
+        android:layout_alignTop="@+id/textView35"
+        android:layout_toLeftOf="@+id/textView22"
+        android:layout_toStartOf="@+id/textView22" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="دارای اعتبار"
+        android:id="@+id/textView37"
+        android:layout_alignTop="@+id/textView34"
+        android:layout_alignRight="@+id/textView35"
+        android:layout_alignEnd="@+id/textView35"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="X"
+        android:id="@+id/textView38"
+        android:textSize="15dp"
+        android:layout_alignTop="@+id/textView37"
+        android:layout_alignRight="@+id/textView36"
+        android:layout_alignEnd="@+id/textView36" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="در حال صدور"
+        android:id="@+id/textView39"
+        android:textSize="15dp"
+        android:layout_alignTop="@+id/textView33"
+        android:layout_alignRight="@+id/textView37"
+        android:layout_alignEnd="@+id/textView37" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="--"
+        android:id="@+id/textView40"
+        android:textSize="15dp"
+        android:layout_alignTop="@+id/textView39"
+        android:layout_alignRight="@+id/textView36"
+        android:layout_alignEnd="@+id/textView36" />
+
+</RelativeLayout>

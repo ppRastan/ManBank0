@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="DepositTabs.DepositTransferWallet">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="انتقال شارژ :"
+        android:id="@+id/textView9"
+        android:layout_marginTop="98dp"
+        android:autoText="false"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="به حساب :"
+        android:id="@+id/textView13"
+        android:layout_marginTop="65dp"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="55dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="مبلغ : "
+        android:id="@+id/textView14"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/textView13"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تایید هویت و پرداخت"
+        android:id="@+id/button"
+        android:textSize="20dp"
+        android:layout_marginBottom="86dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_toLeftOf="@+id/textView14"
+        android:layout_toStartOf="@+id/textView14" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:layout_above="@+id/textView14"
+        android:layout_alignRight="@+id/editText3"
+        android:layout_alignEnd="@+id/editText3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="به نام : حسن امیری"
+        android:id="@+id/textView15"
+        android:layout_below="@+id/textView14"
+        android:layout_toLeftOf="@+id/textView14"
+        android:layout_toStartOf="@+id/textView14"
+        android:layout_marginTop="43dp" />
+
+</RelativeLayout>
